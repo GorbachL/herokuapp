@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class HerokuappTest {
+public class HerokuappAddRemoveButtonTest {
 
     /*
     добавить 2 элемента, удалить элемент, проверить количество элементов
