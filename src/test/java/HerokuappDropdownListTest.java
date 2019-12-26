@@ -17,7 +17,7 @@ public class HerokuappDropdownListTest {
      */
 
     @Test
-    public void VerifyDropdownList() {
+    public void verifyDropdownList() {
 
         System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
 

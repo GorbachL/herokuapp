@@ -12,7 +12,7 @@ public class HerokuappAddRemoveButtonTest {
      */
 
     @Test
-    public void AddRemoveElements() {
+    public void addRemoveElements() {
         By addManuallyButton = By.xpath("//button[text() = 'Add Element']");
         By deleteButton = By.className("added-manually");
 

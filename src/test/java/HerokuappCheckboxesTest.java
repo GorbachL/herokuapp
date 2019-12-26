@@ -19,7 +19,7 @@ public class HerokuappCheckboxesTest {
      */
 
     @Test
-    public void Checkboxes() {
+    public void verifyCheckboxes() {
 
         System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
 
