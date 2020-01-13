@@ -19,7 +19,7 @@ public class HerokuappDropdownListTest {
     @Test
     public void verifyDropdownList() {
 
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
         driver.get("http://the-internet.herokuapp.com/dropdown");
@@ -41,5 +41,7 @@ public class HerokuappDropdownListTest {
         assertEquals(options.get(2).isSelected(), true, "Option2 is not selected");
 
         System.out.println(options.get(2).getText());
+
+        driver.quit();
     }
 }

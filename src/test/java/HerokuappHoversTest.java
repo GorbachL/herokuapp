@@ -19,7 +19,7 @@ public class HerokuappHoversTest {
 
     @Test
     public void verifyHovers() {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
         driver.get("http://the-internet.herokuapp.com/hovers");
