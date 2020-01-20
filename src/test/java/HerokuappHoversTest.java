@@ -19,7 +19,7 @@ public class HerokuappHoversTest {
 
     @Test
     public void verifyHovers() {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
 
         WebDriver driver = new ChromeDriver();
         driver.get("http://the-internet.herokuapp.com/hovers");
@@ -60,7 +60,7 @@ public class HerokuappHoversTest {
 
         driver.getCurrentUrl();
         String string3 = driver.findElement(By.xpath("//*[text()='Not Found']")).getText();
-        assertEquals(string2, "Not Found", "Not performed 2");
+        assertEquals(string3, "Not Found", "Not performed 2");
 
         driver.navigate().back();
 
